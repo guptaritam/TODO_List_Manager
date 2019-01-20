@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "862cd055-19bd-4fbf-bc54-9e9128c2a8cb",
+		"name": "TODOManager",
+		"description": "These are the list of APIs that will be used for different Blockchain operations.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "registerUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_password\": \"pass\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/registerUser",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"registerUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_password\": \"pass\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/login",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addTask",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_task\": \"task1\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/addTask",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"addTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "displayTaskStatus",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_task\": \"task1\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/displayTaskStatus",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"displayTaskStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkTodoList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_task\": \"task1\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/checkTodoList",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"checkTodoList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uncheckTodoList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"_userId\": \"1\",\n  \"_task\": \"task1\"\n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/uncheckTodoList",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"uncheckTodoList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUserLogs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/getUserLogs",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"getUserLogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTodoListLogs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://13.126.188.111:3001/api/todoManager/getTodoListLogs",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"todoManager",
+						"getTodoListLogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getTransactionDetails",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"jsonrpc\":\"2.0\",\n  \"method\":\"eth_getTransactionReceipt\",\n  \"params\":\n  [\n    \"<transaction hash>\"\n  ],\n  \"id\":1\n  \n}"
+				},
+				"url": {
+					"raw": "http://13.126.188.111:8545",
+					"protocol": "http",
+					"host": [
+						"13",
+						"126",
+						"188",
+						"111"
+					],
+					"port": "8545"
+				}
+			},
+			"response": []
+		}
+	]
+}
