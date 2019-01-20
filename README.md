@@ -3,9 +3,9 @@
 This repo includes a basic PoC of a TODO List Manager over Blockchains. 
 
 Tech Used : 
--Quorum Blockchain
--Node.js & Express.js
--Smart Contracts in Solidity
+- Quorum Blockchain 
+- Node.js and Express.js
+- Smart Contracts in Solidity
 
 Functionalities achieved :
 - User Registration 
